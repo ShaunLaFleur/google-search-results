@@ -1,8 +1,11 @@
 
-
 #wrapper {
 	width: 100%;
 	min-width: 1050px;
+}
+
+a {
+	text-decoration: none;
 }
 
 img#google-logo {
@@ -22,7 +25,8 @@ div.search-bar {
 	border: 1px solid #dcdcdc;
 	box-shadow: 1px 1px 0px #d2d2d2;
 	margin: 15px auto 0px auto;
-	width: 550px;
+	width: 580px;
+	border-radius: 2px;
 }
 
 div.mic {
@@ -75,5 +79,104 @@ img#app-icon {
 
 /* Navigation Styling */
 div#contain-navigation {
-	border: 1px solid gray;
+	width: 100%;
+	margin-top: 15px;
+	border-bottom: 1px solid #e6e6e6;
+	height: 30px;
+}
+
+div#navigation {
+	width: 550px;
+	margin-left: 140px;
+}
+
+div#nav-links-left {
+	float:left;
+}
+
+div#nav-links-right {
+	float:right;
+}
+
+div#nav-links-left a {
+	display:inline-block;
+	font-family: 'Roboto',arial,sans-serif
+	font-size: 15px;
+	color: gray;
+	margin: 0px 8px 0px 8px;
+}
+div#nav-links-right a {
+	float: left;
+	font-family: 'Roboto',arial,sans-serif
+	font-size: 15px;
+	color: gray;
+	margin: 0px 8px 0px 8px;
+
+}
+
+div#nav-links-left a:hover, div#nav-links-right a:hover {
+	color: black;
+}
+
+div#nav-links-right a#tools {
+	padding: 5px 11px 5px 11px;
+	margin: -5px 0px 0px 10px;
+	border: 1px solid white;
+}
+div#nav-links-right a#tools:hover {
+	color:gray;
+	border: 1px solid #c3c3c3;
+	border-radius: 1px;
+}
+
+div#nav-links-left a#all-blue {
+	color:#3c7bde;
+	font-weight:bold;
+	border-bottom: 3px solid #3c7bde;
+	padding: 0px 4px 9px 4px
+}
+
+/* Content Styling */
+div#contain-content {
+	height: 1000px;
+	margin-left: 160px;
+}
+
+span.search-stats {
+	color:gray;
+	float: left;
+	margin-top:10px;
+	font-size:14px;
+}
+.content-area {
+	height: 75px;
+	width: 530px;
+	margin-top: 25px;
+}
+
+.header-link {
+	color:#1a0dab;
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: 16px;
+}
+
+.header-link:hover {
+	text-decoration:underline;
+}
+.sub-link {
+	color:green;
+	font-size: 14px;
+	white-space:nowrap;
+}
+
+p.para-content {
+	padding: 0;
+	margin: 0;
+	font-size:14px;
+	color:#545454;
+}
+
+.date {
+	color:gray;
+	font-size:14px;
 }
