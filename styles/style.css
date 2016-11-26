@@ -138,18 +138,16 @@ div#nav-links-left a#all-blue {
 
 /* Content Styling */
 div#contain-content {
-	height: 1000px;
 	margin-left: 160px;
 }
 
-span.search-stats {
+.search-stats {
 	color:gray;
 	float: left;
 	margin-top:10px;
 	font-size:14px;
 }
 .content-area {
-	height: 75px;
 	width: 530px;
 	margin-top: 25px;
 }
@@ -179,4 +177,117 @@ p.para-content {
 .date {
 	color:gray;
 	font-size:14px;
+}
+
+h3 {
+	color: #424242;
+}
+
+ul.related-links {
+	text-decoration:none;
+	display:inline-block;
+	margin-top:0px;
+}
+
+ul.related-links a {
+	font-weight:bold;
+}
+
+ul.related-links a:hover {
+	text-decoration: underline;
+}
+
+ul#first-related {
+	padding-left:0;
+}
+
+ul.related-links li {
+	padding-bottom: 10px;
+}
+
+.o2, .o3, .o4, .o5, .o6, .o7, .o8, .o9, .o10{
+	background-image: url(https://www.google.com/images/nav_logo242.png);
+	background-repeat: no-repeat;
+	background-position:-75px -10px;
+	width: 18px;
+	display:inline-block;
+	height: 19px;
+	
+}
+
+.gle{
+	background-image: url(https://www.google.com/images/nav_logo242.png);
+	background-repeat: no-repeat;
+	background-position: -96px -1px;
+	width: 71px;
+	height: 36px;
+	display:inline-block;
+	margin-bottom: -8px;
+}
+
+.GO{
+	background-image: url(https://www.google.com/images/nav_logo242.png);
+	background-repeat: no-repeat;
+	background-position: -24px 0;
+	width: 48px;
+	height: 29px;
+	display:inline-block;
+}
+
+div#google-pages {
+	margin-left:170px;
+}
+
+div#google-pages-links {
+	margin-left: 25px;
+	margin-top:10px;
+}
+
+
+.google-links {
+	display:inline-block;
+	color:blue;
+	padding: 0px 0px 0px 10px;
+}
+
+.google-links-ten {
+	padding-left:5px;
+}
+
+.google-links-next {
+	padding-left: 50px;
+}
+
+div#footer {
+	margin-top:20px;
+	border-top:1px solid #dadada;
+}
+
+div#city-address {
+	margin: 10px 0px 0px 160px;
+}
+
+div#circular {
+	height: 10px;
+	width: 10px;
+	border-radius:5px;
+	background-color:gray;
+	display:inline-block;
+}
+div#city {
+	display:inline-block;
+	margin: 0px 0px 10px 0px;
+}
+
+.footer-url {
+	color:#444343;
+	font-size:14px;
+}
+
+.footer-url:hover {
+	text-decoration:underline;
+}
+
+div#footer-links a.footer-url {
+	padding: 10px 25px 0px 0px;
 }
